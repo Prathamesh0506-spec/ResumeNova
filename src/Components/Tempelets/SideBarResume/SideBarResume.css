@@ -1,0 +1,321 @@
+/* ============================= */
+/* COMPLETE RESUME SHEET */
+/* ============================= */
+
+.resume-sheet{
+    width:794px;
+    min-height:1123px;
+    background:#ffffff;
+
+    margin:30px auto;
+
+    display:flex;
+
+    box-shadow:0px 5px 20px rgba(0,0,0,.25);
+
+    overflow:hidden;
+}
+
+
+/* ============================= */
+/* LEFT SIDEBAR */
+/* ============================= */
+
+.resume-left{
+
+    width:32%;
+
+    background:#222428;
+
+    color:white;
+
+    display:flex;
+
+    flex-direction:column;
+
+}
+
+
+.profile-section{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    padding-top:40px;
+
+    padding-bottom:30px;
+
+}
+
+
+.profile-circle{
+
+    width:170px;
+
+    height:170px;
+
+    border-radius:50%;
+
+    border:5px solid #D09A34;
+
+    background:#cfcfcf;
+
+}
+
+
+/* ============================= */
+
+.left-section{
+
+    padding:20px 30px;
+
+}
+
+
+.left-section h3{
+
+    color:#D09A34;
+
+    font-size:26px;
+
+    font-weight:bold;
+
+    display:flex;
+
+    align-items:center;
+
+    margin-bottom:25px;
+
+}
+
+
+.left-section h3::after{
+
+    content:"";
+
+    flex:1;
+
+    height:2px;
+
+    background:#D09A34;
+
+    margin-left:15px;
+
+}
+
+
+.left-content{
+
+    min-height:120px;
+
+}
+
+
+
+/* ============================= */
+/* RIGHT SIDE */
+/* ============================= */
+
+.resume-right{
+
+    width:68%;
+
+    background:white;
+
+    padding:45px;
+
+}
+
+
+
+/* ============================= */
+/* HEADER */
+/* ============================= */
+
+.header{
+
+    margin-bottom:45px;
+
+}
+
+
+.header h1{
+
+    font-size:62px;
+
+    font-weight:bold;
+
+    letter-spacing:1px;
+
+    color:#111;
+
+}
+
+
+.header span{
+
+    color:#D09A34;
+
+}
+
+
+.header h2{
+
+    margin-top:10px;
+
+    font-size:24px;
+
+    letter-spacing:6px;
+
+    color:#333;
+
+    font-weight:500;
+
+}
+
+
+
+/* ============================= */
+/* SECTION */
+/* ============================= */
+
+.resume-section{
+
+    margin-bottom:65px;
+
+}
+
+
+.section-heading{
+
+    display:flex;
+
+    align-items:center;
+
+    margin-bottom:30px;
+
+}
+
+
+.icon-circle{
+
+    width:42px;
+
+    height:42px;
+
+    border-radius:50%;
+
+    background:#D09A34;
+
+    color:white;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:18px;
+
+    margin-right:15px;
+
+}
+
+
+.section-heading h3{
+
+    font-size:24px;
+
+    font-weight:bold;
+
+    color:#111;
+
+    margin:0;
+
+}
+
+
+.heading-line{
+
+    flex:1;
+
+    height:2px;
+
+    background:#D09A34;
+
+    margin-left:18px;
+
+}
+
+
+.section-content{
+
+    min-height:130px;
+
+    border-bottom:1px solid #d7d7d7;
+
+}
+
+
+
+/* ============================= */
+/* PRINT FRIENDLY */
+/* ============================= */
+
+@media print{
+
+    .resume-sheet{
+
+        margin:0;
+
+        box-shadow:none;
+
+    }
+
+}
+
+
+
+/* ============================= */
+/* RESPONSIVE */
+/* ============================= */
+
+@media(max-width:992px){
+
+    .resume-sheet{
+
+        width:100%;
+
+        transform:scale(.85);
+
+        transform-origin:top center;
+
+    }
+
+}
+
+
+@media(max-width:768px){
+
+    .resume-sheet{
+
+        flex-direction:column;
+
+    }
+
+    .resume-left{
+
+        width:100%;
+
+    }
+
+    .resume-right{
+
+        width:100%;
+
+    }
+
+}

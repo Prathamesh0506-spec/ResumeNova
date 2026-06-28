@@ -7,7 +7,7 @@ export default function GetPlsPage() {
                 className="container-fluid py-5"
                 style={{
                     minHeight: "calc(100vh - 75px)",
-                    backgroundColor: "#C0F2F3"
+                    backgroundColor: "#F2F3ED"
                 }}
             >
                 <div className="container">
@@ -15,10 +15,10 @@ export default function GetPlsPage() {
                     {/* PAGE HEADING */}
                     <div className="row mb-5">
                         <div className="col-12 text-center">
-                            <h2 className="fw-bold" style={{ color: "#064051" }}>
+                            <h2 className="fw-bold" style={{ color: "#2A4467" }}>
                                 ResumeNova +
                             </h2>
-                            <p className="fs-5 mb-0" style={{ color: "#064051" }}>
+                            <p className="fs-5 mb-0" style={{ color: "#2A4467" }}>
                                 Unlock extra resume tools for a smarter editing experience.
                             </p>
                         </div>
@@ -33,11 +33,11 @@ export default function GetPlsPage() {
                                 <div className="card-body text-center p-4">
                                     <div className="fs-1 mb-3">📄</div>
 
-                                    <h5 className="card-title fw-bold mb-3" style={{ color: "#064051" }}>
+                                    <h5 className="card-title fw-bold mb-3" style={{ color: "#2A4467" }}>
                                         Premium Templates
                                     </h5>
 
-                                    <p className="card-text" style={{ color: "#064051" }}>
+                                    <p className="card-text" style={{ color: "#2A4467" }}>
                                         Access polished resume designs for executive, creative, tech, and academic profiles.
                                     </p>
                                 </div>
@@ -50,11 +50,11 @@ export default function GetPlsPage() {
                                 <div className="card-body text-center p-4">
                                     <div className="fs-1 mb-3">✅</div>
 
-                                    <h5 className="card-title fw-bold mb-3" style={{ color: "#064051" }}>
+                                    <h5 className="card-title fw-bold mb-3" style={{ color: "#2A4467" }}>
                                         ATS Resume Checker
                                     </h5>
 
-                                    <p className="card-text" style={{ color: "#064051" }}>
+                                    <p className="card-text" style={{ color: "#2A4467" }}>
                                         Check basic resume quality, keyword usage, section formatting, and ATS-friendly structure.
                                     </p>
                                 </div>
@@ -67,11 +67,11 @@ export default function GetPlsPage() {
                                 <div className="card-body text-center p-4">
                                     <div className="fs-1 mb-3">✨</div>
 
-                                    <h5 className="card-title fw-bold mb-3" style={{ color: "#064051" }}>
+                                    <h5 className="card-title fw-bold mb-3" style={{ color: "#2A4467" }}>
                                         AI Bullet Suggestions
                                     </h5>
 
-                                    <p className="card-text" style={{ color: "#064051" }}>
+                                    <p className="card-text" style={{ color: "#2A4467" }}>
                                         Improve simple experience lines into professional resume bullet points instantly.
                                     </p>
                                 </div>
@@ -86,8 +86,8 @@ export default function GetPlsPage() {
                             <button
                                 className="btn btn-lg fw-bold rounded-pill px-5 py-3 shadow"
                                 style={{
-                                    backgroundColor: "#1E9C99",
-                                    borderColor: "#1E9C99",
+                                    backgroundColor: "#2A4467",
+                                    borderColor: "#2A4467",
                                     color: "white"
                                 }}
                             >

@@ -1,0 +1,773 @@
+/* ===========================================
+            COMPLETE A4 RESUME SHEET
+=========================================== */
+
+.modernResume{
+
+    width:794px;
+
+    min-height:1123px;
+
+    margin:25px auto;
+
+    background:#ffffff;
+
+    box-shadow:0px 4px 18px rgba(0,0,0,.28);
+
+}
+
+
+
+/* ===========================================
+                HEADER
+=========================================== */
+
+.resumeHeader{
+
+    text-align:center;
+
+    padding-top:35px;
+
+    padding-bottom:25px;
+
+}
+
+
+.resumeHeader h1{
+
+    font-size:72px;
+
+    font-weight:700;
+
+    letter-spacing:2px;
+
+    color:#111;
+
+}
+
+
+.resumeHeader span{
+
+    color:#109A98;
+
+}
+
+
+.resumeHeader h3{
+
+    margin-top:10px;
+
+    font-size:30px;
+
+    font-weight:400;
+
+    letter-spacing:10px;
+
+    color:#444;
+
+}
+
+
+.designationLine{
+
+    width:120px;
+
+    height:4px;
+
+    background:#109A98;
+
+    margin:20px auto 0px auto;
+
+}
+
+
+
+/* ===========================================
+            CONTACT STRIP
+=========================================== */
+
+.contactStrip{
+
+    background:#EFEFEF;
+
+    height:170px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:0px 70px;
+
+}
+
+
+
+/* ===========================================
+            LEFT ICONS
+=========================================== */
+
+.leftIcons{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:25px;
+
+}
+
+
+.leftIcons div{
+
+    width:52px;
+
+    height:52px;
+
+    border-radius:50%;
+
+    background:#109A98;
+
+    color:white;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:22px;
+
+}
+
+
+
+/* ===========================================
+            RIGHT ICONS
+=========================================== */
+
+.rightIcons{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:25px;
+
+}
+
+
+.rightIcons div{
+
+    width:52px;
+
+    height:52px;
+
+    border-radius:50%;
+
+    background:#109A98;
+
+    color:white;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:22px;
+
+}
+
+
+
+/* ===========================================
+            PROFILE IMAGE
+=========================================== */
+
+.profileImage{
+
+    margin-top:70px;
+
+    z-index:100;
+
+}
+
+
+.imageCircle{
+
+    width:220px;
+
+    height:220px;
+
+    border-radius:50%;
+
+    border:10px solid white;
+
+    background:#d8d8d8;
+
+    box-shadow:0px 5px 15px rgba(0,0,0,.25);
+
+}
+
+
+
+/* ===========================================
+                BODY
+=========================================== */
+
+.resumeBody{
+
+    display:flex;
+
+    padding-top:90px;
+
+}
+
+
+
+/* ===========================================
+            LEFT COLUMN
+=========================================== */
+
+.leftColumn{
+
+    width:35%;
+
+    border-right:2px solid #D8D8D8;
+
+}
+
+
+
+/* ===========================================
+            RIGHT COLUMN
+=========================================== */
+
+.rightColumn{
+
+    width:65%;
+
+}
+
+
+
+
+/* ===========================================
+            LEFT SECTION
+=========================================== */
+
+.leftSection{
+
+    min-height:235px;
+
+    padding:25px 30px;
+
+}
+
+
+
+/* ===========================================
+            RIGHT SECTION
+=========================================== */
+
+.rightSection{
+
+    min-height:420px;
+
+    padding:25px 35px;
+
+}
+
+
+
+/* ===========================================
+            COMMON TITLE
+=========================================== */
+
+.sectionTitle{
+
+    display:flex;
+
+    align-items:center;
+
+    margin-bottom:25px;
+
+}
+
+
+
+/* ===========================================
+            ICON
+=========================================== */
+
+.circleIcon{
+
+    width:48px;
+
+    height:48px;
+
+    border-radius:50%;
+
+    background:#109A98;
+
+    color:white;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:22px;
+
+    margin-right:15px;
+
+}
+
+
+
+/* ===========================================
+            SECTION NAME
+=========================================== */
+
+.sectionTitle h4{
+
+    margin:0;
+
+    color:#109A98;
+
+    font-size:32px;
+
+    font-weight:700;
+
+    display:flex;
+
+    align-items:center;
+
+    width:100%;
+
+}
+
+
+
+/* ===========================================
+            GREEN LINE
+=========================================== */
+
+.sectionTitle h4::after{
+
+    content:"";
+
+    flex:1;
+
+    height:3px;
+
+    background:#109A98;
+
+    margin-left:18px;
+
+}
+
+
+
+/* ===========================================
+            SECTION DATA
+=========================================== */
+
+.sectionData{
+
+    min-height:120px;
+
+}
+
+
+
+/* ===========================================
+            DIVIDER
+=========================================== */
+
+.leftSection:not(:last-child){
+
+    border-bottom:2px solid #D8D8D8;
+
+}
+
+
+
+.rightSection:not(:last-child){
+
+    border-bottom:2px solid #D8D8D8;
+
+}
+
+
+
+/* ===========================================
+        EXPERIENCE TIMELINE
+=========================================== */
+
+.rightSection:first-child{
+
+    position:relative;
+
+}
+
+
+
+.rightSection:first-child::before{
+
+    content:"";
+
+    position:absolute;
+
+    left:58px;
+
+    top:95px;
+
+    bottom:35px;
+
+    width:2px;
+
+    background:#D8D8D8;
+
+}
+
+
+
+.rightSection:first-child::after{
+
+    content:"";
+
+    position:absolute;
+
+    left:51px;
+
+    top:120px;
+
+    width:16px;
+
+    height:16px;
+
+    border-radius:50%;
+
+    background:#109A98;
+
+    box-shadow:0px 230px 0px #109A98;
+
+}
+
+
+
+/* ===========================================
+        IMAGE SHADOW
+=========================================== */
+
+.imageCircle{
+
+    transition:.3s;
+
+}
+
+
+
+.imageCircle:hover{
+
+    transform:scale(1.02);
+
+}
+
+
+
+/* ===========================================
+            SMOOTH LOOK
+=========================================== */
+
+*{
+
+    box-sizing:border-box;
+
+}
+
+
+
+/* ===========================================
+            PROFILE IMAGE FIT
+=========================================== */
+
+.imageCircle img{
+
+    width:100%;
+
+    height:100%;
+
+    object-fit:cover;
+
+    border-radius:50%;
+
+}
+
+
+
+/* ===========================================
+        COMMON PARAGRAPH STYLE
+=========================================== */
+
+.sectionData p{
+
+    margin-bottom:12px;
+
+    color:#444;
+
+    line-height:1.8;
+
+    font-size:17px;
+
+}
+
+
+
+/* ===========================================
+            COMMON LIST
+=========================================== */
+
+.sectionData ul{
+
+    padding-left:22px;
+
+    margin:0;
+
+}
+
+
+.sectionData li{
+
+    margin-bottom:10px;
+
+    color:#444;
+
+    line-height:1.7;
+
+}
+
+
+
+/* ===========================================
+            EXPERIENCE BLOCK
+=========================================== */
+
+.experienceCard{
+
+    margin-bottom:35px;
+
+    padding-left:40px;
+
+}
+
+
+.experienceCard h5{
+
+    font-size:21px;
+
+    font-weight:bold;
+
+    color:#111;
+
+    margin-bottom:5px;
+
+}
+
+
+.experienceCard h6{
+
+    font-size:17px;
+
+    color:#109A98;
+
+    margin-bottom:8px;
+
+}
+
+
+.experienceCard span{
+
+    font-size:15px;
+
+    color:#666;
+
+}
+
+
+
+/* ===========================================
+            EDUCATION BLOCK
+=========================================== */
+
+.educationCard{
+
+    margin-bottom:30px;
+
+}
+
+
+.educationCard h5{
+
+    font-size:21px;
+
+    font-weight:bold;
+
+    color:#111;
+
+}
+
+
+.educationCard p{
+
+    margin:6px 0;
+
+}
+
+
+
+/* ===========================================
+                SKILL TAG
+=========================================== */
+
+.skillItem{
+
+    display:inline-block;
+
+    padding:8px 16px;
+
+    margin:6px;
+
+    background:#109A98;
+
+    color:white;
+
+    border-radius:30px;
+
+    font-size:15px;
+
+}
+
+
+
+/* ===========================================
+            CONTACT DETAILS
+=========================================== */
+
+.contactItem{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+    margin-bottom:18px;
+
+    color:#444;
+
+    font-size:16px;
+
+}
+
+
+
+/* ===========================================
+            HOVER EFFECT
+=========================================== */
+
+.skillItem:hover{
+
+    background:#087977;
+
+    transition:.3s;
+
+}
+
+
+
+/* ===========================================
+            RESPONSIVE
+=========================================== */
+
+@media(max-width:992px){
+
+    .modernResume{
+
+        transform:scale(.80);
+
+        transform-origin:top center;
+
+    }
+
+}
+
+
+
+@media(max-width:768px){
+
+    .modernResume{
+
+        width:100%;
+
+        min-height:auto;
+
+    }
+
+    .resumeBody{
+
+        flex-direction:column;
+
+    }
+
+    .leftColumn{
+
+        width:100%;
+
+        border-right:none;
+
+        border-bottom:2px solid #d8d8d8;
+
+    }
+
+    .rightColumn{
+
+        width:100%;
+
+    }
+
+    .contactStrip{
+
+        flex-direction:column;
+
+        height:auto;
+
+        gap:25px;
+
+        padding:30px;
+
+    }
+
+}
+
+
+
+/* ===========================================
+                PRINT
+=========================================== */
+
+@media print{
+
+    .modernResume{
+
+        margin:0;
+
+        box-shadow:none;
+
+    }
+
+}
