@@ -21,24 +21,8 @@ export default function RightPanel() {
                 className="p-4"
             >
 
-                <h2
-                    style={{
-                        color: "#2A4467",
-                        fontWeight: "bold"
-                    }}
-                >
-                    Right Panel
-                </h2>
 
                 <hr />
-
-                <h4
-                    style={{
-                        color: "#2A4467"
-                    }}
-                >
-                    Selected Template ID : {selectedTemplateId}
-                </h4>
 
                 {/* Resume ला मध्यभागी fit करून scroll ठेवला आहे. */}
 

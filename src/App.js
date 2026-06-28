@@ -1,5 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./Components/Home.jsx";
+import LoginSuccessModal from "./Components/LoginSuccessModal.jsx";
 import Navbar from "./Components/Navbar.jsx";
 import WorkSpace from "./Components/EditorialPage/WorkSpace.jsx";
 
@@ -21,6 +22,10 @@ export default function App() {
           <Route path="/edit" element={<WorkSpace />}></Route>
           <Route path="/Templetes" element={<TempDisplayPage />}></Route>
           <Route path="/Get-plus" element={<GetPlsPage />}></Route>
+          <Route path="/Modal" element={<LoginSuccessModal />}></Route>
+
+
+          LoginSuccessModal
 
         </Routes>
       </BrowserRouter>

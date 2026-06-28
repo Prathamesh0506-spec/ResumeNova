@@ -57,7 +57,7 @@ export default function Home() {
                             }}
                             onClick={() => navigate("/Login")}
                         >
-                            Getting Started with Editing
+                             Login For Getting Started 
                         </button>
 
                     </div>

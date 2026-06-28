@@ -60,7 +60,7 @@ export default function LeftPanel() {
                     }}
                 >
                     ...
-                    Left Panel
+                    Enter Your Details HERE !!
                 </h2>
 
                 <hr />
